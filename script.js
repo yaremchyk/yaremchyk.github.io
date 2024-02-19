@@ -21,7 +21,7 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "Кнопка Ні тут для прикола.. Ти приколіст?";
+      "Відповідь не приймається.. Ти приколіст?";
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
